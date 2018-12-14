@@ -1,0 +1,122 @@
+/* SPLOŠNO: */
+
+body {
+	background-color: #f2f2f2;
+	font-family: Arial;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	color: #0000ff;
+	letter-spacing: 2px;
+	line-height: 5px;
+}
+
+
+h2 {
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	color: #33cc33;
+	letter-spacing: 2px;
+}
+
+
+/* obrobe so v pomoč pri oblikovanju strani, sicer so nastavljene na "0": */
+
+table {
+	border: 0px black solid;
+}
+
+td {
+	border: 0px black solid;
+}
+
+
+div {
+	border: 0px black solid;
+}
+
+
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* INDEX.HTML (DOMOV): */
+
+
+#išči {
+    width: 350px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+
+.button {
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+	color: blue;
+	background-color: #e6e6e6;
+}
+
+#profilka {
+	padding: 20px;
+}
+
+#profilka:hover {
+	background-color: #e6f3ff;
+}
+
+
+.td-L {
+	font-size: 15px;
+	color: blue;
+	text-align: right;
+}
+
+.td-D {
+	font-size: 15px;
+	color: #006633;
+}
+
+
+
+/* PRIJATELJI.HTML: */
+
+
+.pr-ime {
+	height: 20px;
+	padding: 10px 5px;
+	font-size: 20px;
+	font-weight: bold;
+	color: brown;
+}
+
+.pr-slika {
+	height: 240px;
+}
+
+.tr-height {
+	height: 290px;
+}
+
+.td-bg {
+	width: 260px;
+}
+
+.td-bg:hover {
+	background-color: #e6f3ff;
+}
